@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Hangman</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='hangman.css'>
+
+</head>
+<body>
+    <!--Hangman Images-->
+    <img src="images/0.jpg" alt = "hangman position 0" id='0'>
+    <img src="images/1.jpg" alt = "hangman position 1" id='1'class="invisible">
+    <img src="images/2.jpg" alt = "hangman position 2" id='2'class="invisible">
+    <img src="images/3.jpg" alt = "hangman position 3" id='3'class="invisible">
+    <img src="images/4.jpg" alt = "hangman position 4" id='4'class="invisible">
+    <img src="images/5.jpg" alt = "hangman position 5" id='5'class="invisible">
+    <img src="images/6.jpg" alt = "hangman position 6" id='6'class="invisible">
+    <div id="word"></div>
+    <div id="holder">
+        <div class="alphabet" id="alphabet">
+            <button class="letter" id="a" onclick="check('a')">a</button>
+            <button class="letter" id="b" onclick="check('b')">b</button>
+            <button class="letter" id="c" onclick="check('c')">c</button>
+            <button class="letter" id="d" onclick="check('d')">d</button>
+            <button class="letter" id="e" onclick="check('e')">e</button>
+            <button class="letter" id="f" onclick="check('f')">f</button>
+            <button class="letter" id="g" onclick="check('g')">g</button>
+            <button class="letter" id="h" onclick="check('h')">h</button>
+            <button class="letter" id="i" onclick="check('i')">i</button>
+            <button class="letter" id="j" onclick="check('j')">j</button>
+            <button class="letter" id="k" onclick="check('k')">k</button>
+            <button class="letter" id="l" onclick="check('l')">l</button>
+            <button class="letter" id="m" onclick="check('m')">m</button>
+            <button class="letter" id="n" onclick="check('n')">n</button>
+            <button class="letter" id="o" onclick="check('o')">o</button>
+            <button class="letter" id="p" onclick="check('p')">p</button>
+            <button class="letter" id="q" onclick="check('q')">q</button>
+            <button class="letter" id="r" onclick="check('r')">r</button>
+            <button class="letter" id="s" onclick="check('s')">s</button>
+            <button class="letter" id="t" onclick="check('t')">t</button>
+            <button class="letter" id="u" onclick="check('u')">u</button>
+            <button class="letter" id="v" onclick="check('v')">v</button>
+            <button class="letter" id="w" onclick="check('w')">w</button>
+            <button class="letter" id="x" onclick="check('x')">x</button>
+            <button class="letter" id="y" onclick="check('y')">y</button>
+            <button class="letter" id="z" onclick="check('z')">z</button>
+        </div>
+    </div>
+    <div id="win" class="center">You Win!</div>
+    <div id="lose" class="centerLose">You Lose!</div>
+    <button class="reset" id="reset" onclick="reset()">Reset</button>
+    <!--Script-->
+    <script src='hangman.js'></script>
+</body>
+</html>

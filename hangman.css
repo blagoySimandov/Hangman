@@ -1,0 +1,43 @@
+.visible{
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+}
+.invisible{
+    display: none!important;
+}
+.alphabet{
+    width: 500px;
+    margin: auto;
+    word-wrap: break-word;
+}
+.letter{
+    margin: 5px 5px 5px 5px;
+}
+.reset{
+    display: block;
+    margin: auto;
+}
+.center{
+    display: block;
+    margin: auto;
+    width: 65px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.centerLose{
+    display: block;
+    margin: auto;
+    width: 67px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.centerAnswear{
+    position: relative;
+    display: inline-block;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
